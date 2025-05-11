@@ -54,7 +54,7 @@ img {
 
 .container {
     max-width: 320px;
-        padding: 16px;
+        padding: 0 16px;
         margin: 0 auto;
 }
 
@@ -321,7 +321,7 @@ background-color: #fff;
 background: #2e2f42;
 background-image: 
 linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-url(../images/people-office.jpg);
+url(../images/portfolio-mobile/dark-bg-mobile-1.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -333,25 +333,24 @@ margin: 0 auto;
 @media (min-resolution: 2x) 
 { .main-page { 
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/people-office@2.jpg); }
+    url(../images/portfolio-mobile/dark-bg-mobile-2.jpg) }
 }
 
 .main-page-container {
     display: flex;
     flex-direction: column;
-    gap: 48px;
     justify-content: center;
     align-items: center;
 }
 
 .main-title {
     font-weight: bold;
-    font-size: 56px;
+    font-size: 36px;
 line-height: 1.07;
 color: #fff;
 text-align: center;
 letter-spacing: 0.02em;
-max-width: 496px;
+max-width: 216px;
 }
 
  .main-title-button {
@@ -426,16 +425,9 @@ max-width: 496px;
             margin-bottom: 8px;
 }
 
-/* .core-principles-item {
-    width: 100%;
-    flex: 1 1 100%;
-    min-width: 0;
-    box-sizing: border-box;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
+.core-principles-item {
     align-items: flex-start;
-} */
+}
 
 .core-prenciples-icon {
     fill: none;
@@ -1117,13 +1109,13 @@ display: block;
 .main-page {
     padding: 120px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/people-office.jpg);
+            url(../images/portfolio-tablet/dark-bg-tablet-1.jpg);
 }
 
 @media (min-resolution: 2x) {
     .main-page {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/people-office@2.jpg)
+            url(../images/portfolio-tablet/dark-bg-tablet-2.jpg)
     }
 
 }
@@ -1131,6 +1123,8 @@ display: block;
 .main-title {
     margin-bottom: 36px;
         font-size: 56px;
+            width: 496px;
+            max-width: 100%;
 }
 
 .core-principles-list {
@@ -1151,6 +1145,7 @@ display: block;
         letter-spacing: 0.02em;
         color: #2e2f42;
         margin-bottom: 8px;
+        text-align: left;
 }
 
 
@@ -1281,6 +1276,7 @@ display: block;
 
 .address-item {
     flex-direction: row;
+    gap: 40px;
 }
 
 .address-link {
@@ -1304,6 +1300,9 @@ display: block;
 
 .main-title {
     margin-bottom: 48px;
+    font-size: 56px;
+    width: 496px;
+    max-width: 100%;
 }
 
 .core-principles {
@@ -1342,7 +1341,7 @@ display: block;
     padding: 120px 0;
 }
 
-.our-porfolio {
+.our-portfolio {
     padding: 120px 0;
 }
 
